@@ -7,7 +7,8 @@ I would like to share what I have done to prepare for interviews.
 
 ## My Study History
 
-* **Sep 2022** : 
+**Sep 2022** :
+   [leetcode_history_2022.png](https://github.com/harunawaizumi/how-to-get-in-ffang/blob/2b6dfe65fd0d4438d158328f4ee837db896dd4a5/leetcode_history_2022.png)
 
 
 ## Algorithm
