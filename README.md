@@ -1,17 +1,21 @@
-I got in Amazon(AWS). It took one and a half years in total for the prepartion. I literally started from zero for the entire preparation. The reason it took that long for me was 
+# How I Prepared For FAANG Interviews Without CS Degree.
+
+I got in Amazon(AWS). It took one and a half years in total for the prepartion. I literally started from zero for entire preparation. I don't disagree it takes longer than usual. It was a really long journey for me. It took that long for me because:
 
 * No Computer Science degree in colleage. My major was Economics.
-* My previous company didn't ask me any technical background or knowledge. I was working as Software Engineer at my previous company which was my first technical role in my career. 
+* My previous company didn't ask me any technical background or knowledge. I was working as Software Engineer at my previous company but I didn't prepare for techinical interviews. It was my first technical role in my career. 
 
-I would like to share what I have done to prepare for interviews.
+I would like to share how I prepared for interviews.
 
 ## My Study History
 
 **Sep 2022** :
-   ![leetcode_history_2022.png](https://github.com/harunawaizumi/how-to-get-in-ffang/blob/main/leetcode_history_2022.png)
+   ![leetcode_history_2022.png](https://github.com/harunawaizumi/how-to-get-in-ffang/blob/main/leetcode_history_2022.png) 
+   I started studying algorithm in Sep 2022. I used [Structy](https://structy.net/) to understand fundamentals. After repeating two to three times depending on the topic, I started working on Leetcode. I focused on [Top 100 Liked Questions](https://leetcode.com/problem-list/top-100-liked-questions/) and [60 Questsions To Solve](leetcode.com/problem-list/xo2bgr0r/). My golden time to study is in the morning before working hours. I usualy woke up at 5am to study from 5am - 7am. On weekend, I treid to study for at least 6 hours each. One dail goal was solving at least 1 question, and 2 questsions on averate. Don't go to next question until I unerstand really well.
 
 **2023** :
    ![leetcode_history_2023.png](https://github.com/harunawaizumi/how-to-get-in-ffang/blob/main/leetcode_history_2023.png)
+   Hiring freeze started in 
 
 **2024** :
    ![leetcode_history_2024.png](https://github.com/harunawaizumi/how-to-get-in-ffang/blob/main/leetcode_history_2024.png)
