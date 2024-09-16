@@ -104,7 +104,7 @@ I watched a video and wrote down a summary for each topic. I also checked and se
 
 2. Review and Remember
  After watching this video twice, I made a list to remember them. I asked a question and explained to myself. I tracked when I answered and whether I answered correctly.
-![Tech Basic](https://github.com/harunawaizumi/ffang-interviews-preparations/blob/main/tech_basic_tracker.mov)
+![Tech Basic](https://github.com/harunawaizumi/ffang-interviews-preparations/blob/main/tech_basic_tracker.png)
 
 3. Move To Advance
 I read [Alex Xu System Design Interview](https://amzn.asia/d/0Tflea2) and [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) and wrote down what I learned to my note.
