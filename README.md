@@ -10,16 +10,18 @@ I would like to share how I prepared for interviews.
 ## My Study History
 
 **Sep 2022** :
-   ![leetcode_history_2022.png](https://github.com/harunawaizumi/how-to-get-in-ffang/blob/main/leetcode_history_2022.png) 
+   ![leetcode_history_2022.png](https://github.com/harunawaizumi/ffang-interviews-preparations/blob/main/leetcode_history_2022.png) 
    I started studying algorithm in Sep 2022. I used [Structy](https://structy.net/) to understand fundamentals. After repeating two to three times depending on the topic, I started working on Leetcode. I focused on [Top 100 Liked Questions](https://leetcode.com/problem-list/top-100-liked-questions/) and [60 Questsions To Solve](leetcode.com/problem-list/xo2bgr0r/). My golden time to study is in the morning before working hours. I usualy woke up at 5am to study from 5am - 7am. On weekend, I treid to study for at least 6 hours each. One dail goal was solving at least 1 question, and 2 questsions on averate. Don't go to next question until I unerstand really well.
 
 **2023** :
-   ![leetcode_history_2023.png](https://github.com/harunawaizumi/how-to-get-in-ffang/blob/main/leetcode_history_2023.png)
-   Hiring freeze started in 
+   ![leetcode_history_2023.png](https://github.com/harunawaizumi/ffang-interviews-preparations/blob/main/leetcode_history_2023.png)
+   Hiring freeze started in the late 2022 and the early 2023. Many teams in FAANG stopped hiring people. My strategy needs to be changed. I thought the demands of cloud engineers are going to increase in the future and my previous company also uses AWS. I studied for 6 months to get [AWS Certified Solutions Architect - Associate](https://aws.amazon.com/jp/certification/certified-solutions-architect-associate/). I didn't study seriously from Aug. to Oct. I enjoyed having trips. I resumed an interview preparations in Nov 2023. I studied System Design and Algorithm. I also increased study hours. I woke up at 4am to study for 3 hours and studied for at least 6 hours each on weekend. I used [Algoexport System Design Fundamentals](https://www.algoexpert.io/systems/fundamentals) and made a note for each topic.  
+
+   ![Tech Layoff](https://github.com/harunawaizumi/ffang-interviews-preparations/blob/main/layoff_tech.png)
 
 **2024** :
-   ![leetcode_history_2024.png](https://github.com/harunawaizumi/how-to-get-in-ffang/blob/main/leetcode_history_2024.png)
-
+   ![leetcode_history_2024.png](https://github.com/harunawaizumi/ffang-interviews-preparations/blob/main/leetcode_history_2024.png)
+When I have some questions I don't understand, I talk to senior engineers I respect. After discussion, I realized Algoexpert System Design Fundamentails are not enough to pass FAANG interviews. I also read [Alex Xu System Design Interview](https://amzn.asia/d/0Tflea2) and [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/). These two books gives some good idea how to approach system design interviews. I started applying for companis in May and got an offer from Amazon in August.
 
 ## Algorithm
 
@@ -29,7 +31,6 @@ I would like to share how I prepared for interviews.
 * **[Leetcode](https://leetcode.com/)** : This is one of the most popular algorithm questions platform in the world. I used Leetcode after I became comfortable with Structy. Premious subsciption is recommended ! Some of good questions are only for premium users. You can also sort questions by frequency asked by top IT companies and official answers for questions. I understand all of them you could get for free somewhere on the internet. But you can save lots of time by paying just $160. 
 
 A engineer from Google told me that you need to solve at 200 - 300 questions to pass FAANG technical interviews. The ideal percentage is like 10% Hard, 20% Medium and 70% easy. I solved 223 questions in total. I would need to solve more "Hard" questions if I planed to apply for a regular SWE. The positions I wanted to apply for was either of engineering roles which requires some client faicing skills, or non-software engineering role among technical positions. I more focused on fundamental questions. I repeated one to six times until I solve a question quickly.
-
 
 
 * AlgoExpert 
