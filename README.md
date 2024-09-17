@@ -45,7 +45,7 @@ A engineer from Google told me that you need to solve at 200 - 300 questions to 
 I solved [Top 100 Liked Questions](https://leetcode.com/problem-list/top-100-liked-questions/) and [60 Questsions To Solve](leetcode.com/problem-list/xo2bgr0r/). These questisons are frequently asked by big companies. I made a list in excel with these questions.
 I tried to solve 2 questions daily from the top to bottom in the list.
 I also wrote down my progress in the list. 
-![Must To Solve Questions](https://github.com/harunawaizumi/ffang-interviews-preparations/blob/main/leetcode_tracker.mov)
+![Must To Solve Questions](https://github.com/harunawaizumi/ffang-interviews-preparations/blob/main/leetcode_tracker.mp4)
 Green means "I solved it smoothly without any reference".
 Yellow means "I almost solved it, or managed to solve it but it took longer than it needs".
 Orange means "I couldn't solve it".  
@@ -99,7 +99,7 @@ I needed to start with very fundamental because I don't have Computer Siecense d
 1. Algo Export
 Algo Expert has a system design fundamental tutorial which has 25 videos. 
 I watched a video and wrote down a summary for each topic. I also checked and searched to understand deeply.
-![Tech Basic](https://github.com/harunawaizumi/ffang-interviews-preparations/blob/main/tech_basic.mov)
+![Tech Basic](https://github.com/harunawaizumi/ffang-interviews-preparations/blob/main/tech_basic_tracker.mp4)
 
 
 2. Review and Remember
@@ -112,7 +112,45 @@ I read [Alex Xu System Design Interview](https://amzn.asia/d/0Tflea2) and [Desig
 
 
 4. Practice
-!!!!!!!!!! How to Lead A SD Question !!!!!!!!
+I made my template to lead System Design interviews. I follow this steps.
+* Clearify the service and explain to an interviewer.
+  - Instagram is a phone and video sharing social networking service. 
+* Explain what kind of data we need.
+  - posts(text, video, pictures), users and followers.
+* Ask function we should focus on
+  - Should we focus on uploading and read  posts ?
+  - Should we focus on following users ?
+* Ask any unfunctional requirements we should care
+  - Do we want to make it scalable ?
+  - Do we wnat to make it reliable ?
+  - Do we want to keep a low latency ?
+* Clearify Numbers
+  - The number of daily users
+  - How many posts a user upload and read ? --> You can calculate the size of the service.
+  - The size of pictures/videos and how long should we store it ? --> You can calculate the size of storage.
+* Draw a high-level design
+  - Include user, application server, Database
+  - Start with a simple architecture.
+  - Ignore scalability, reliability and latency for now.
+* Discuss Database
+  - SQL vs NoSQL --> Explain pros & cons. Discuss which is better for this scenario.
+  - Object storage for video, song and images --> Explain why object storage is good. Explain cloud option.
+  - RDB for meta data --> Explain why RDB is good for meta data.
+* Discuss Application Server
+  - When a popular user posts (Change the scenario of high traffic depending on the service), a service is overloaded if there is only one server. The amount of the traffic one server can handler is limited. We can introduce Load Balancer...... Explain what it is. The type of LB. How to decide the number of LB. How to distribute a traffic etc.
+* Scalability and Reliabiliry
+  - Database replication
+  - Load balancer
+* Latency
+  - Browser caching (Cliend side)
+  - Database caching (server side caching)
+  - CDN
+  - Database sharding
+* Security (Optional)
+  - How to secure a system
+  - How to secure API
+  - How to secure Database
+  - Vulnability
 
 ## Behavioral Question
 I talked to some of my friends working for Google, Amazon to know how to prepare for behavioral questions. 
