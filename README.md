@@ -97,42 +97,41 @@ I watched each video and wrote a summary for each topic. I also did additional r
 
 https://github.com/user-attachments/assets/6d48d199-9ebd-4ebb-b514-3026808fdde0
 
-
-3. Review and Retain Knowledge
+2. Review and Retain Knowledge
  After watching this video twice, I created a list of key points to remember. I quizzed myself on each topic, explained the concepts aloud, and tracked my answers to see which areas I understood well or needed more review.
 ![Tech Basic](https://github.com/harunawaizumi/ffang-interviews-preparations/blob/main/tech_basic_tracker.png)
 
-4. Move To Advanced Topics
+3. Move To Advanced Topics
 I then read [Alex Xu System Design Interview](https://amzn.asia/d/0Tflea2) and [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/). I took notes on what I learned and kept track of key concepts.
 ![System Design Note](https://github.com/harunawaizumi/ffang-interviews-preparations/blob/main/sd_note.png)
 
 
-5. Practice
+4. Practice
 I created my own template to guide system design interviews. Here's the structure I followed:
 
 	1. Clearify the servic
-	Begin by explaining the service clearly.
-  	*Example: Instagram is a phone and video sharing social networking service.* 
-
+	- Begin by explaining the service clearly.
+  	- *Example: Instagram is a phone and video sharing social networking service.*
+     
 	2. Explain the data needed
-	Identify the data the service requires.
-	*Example: We need data on posts(text, video, pictures), users and followers.*
+	- Identify the data the service requires.
+	- *Example: We need data on posts(text, video, pictures), users and followers.*
     
 	3. Ask about the focus and its requirements
-    	Clarify which features or functions the interviewer wants you to prioritize.
-	*Example: Should we focus on post uploads and viewing, or on following users ?*
+    	- Clarify which features or functions the interviewer wants you to prioritize.
+	- *Example: Should we focus on post uploads and viewing, or on following users ?*
 
 	4. Ask about un-functional requirements
-	Discuss performance and scalability factors.
-	*Example: Do we want to make it scalable, reliable and maintain a low latency ?*
+	- Discuss performance and scalability factors.
+	- *Example: Do we want to make it scalable, reliable and maintain a low latency ?*
 
 	5. Clearify key metrics
-	Gather numerical details about the system. Calculate the size of the service and storage.
-	*Example: How many daily users do we have ? What's the size of images and videos ? How long do we store data ?
+	- Gather numerical details about the system. Calculate the size of the service and storage.
+	- *Example: How many daily users do we have ? What's the size of images and videos ? How long do we store data ?
 
 	6. Draw a high-level design
-	Start with a basic architecture, including users, application servers and databases.
-	Focus on a simple solution before considering scalability, reliability, or latency.
+	- Start with a basic architecture, including users, application servers and databases.
+	- Focus on a simple solution before considering scalability, reliability, or latency.
 
 	7. Discuss the database
 	* SQL vs NoSQL: Explain the pros & cons, and choose the best fit for this case.
@@ -140,25 +139,25 @@ I created my own template to guide system design interviews. Here's the structur
  	* RDB for meta data: Explain why relational database are suitable for handling metadata.
 
 	8. Discuss the application Server
-	Describe handling high-traffic scenarios.
-	Think of high-traffic scenario depending on the service.
-	*Example: A popular user posts, causing server overloaded. Introduce the concept of a Load Balancer (LB), discuss the type of LB, how to decide the number needed, and how to distribute traffic.*
+	- Describe handling high-traffic scenarios.
+	- Think of high-traffic scenario depending on the service.
+	- *Example: A popular user posts, causing server overloaded. Introduce the concept of a Load Balancer (LB), discuss the type of LB, how to decide the number needed, and how to distribute traffic.*
 
 	9. Scalability and Reliabiliry
-	  - Database replication
-	  - Load balancer
+	- Database replication
+	- Load balancer
 
 	10. Latency
-	  - Browser caching (cliend-side)
-	  - Database caching (server-side)
-	  - CDN (Conetent Delivery Network)
-	  - Database sharding
+	- Browser caching (cliend-side)
+	- Database caching (server-side)
+	- CDN (Conetent Delivery Network)
+	- Database sharding
 
 	11. Security (Optional)
-	  - Securing the system
-	  - Securing APIs
-	  - Database security
-	  - Addressing vulnerabilities
+	- Securing the system
+	- Securing APIs
+	- Database security
+	- Addressing vulnerabilities
 
 ## Behavioral Question
 I spoke with friends working at IT companies to understand how to prepare for behavioral questions. 
