@@ -109,55 +109,55 @@ I then read [Alex Xu System Design Interview](https://amzn.asia/d/0Tflea2) and [
 4. Practice
 I created my own template to guide system design interviews. Here's the structure I followed:
 
-	1. Clearify the servic
-	- Begin by explaining the service clearly.
-  	- *Example: Instagram is a phone and video sharing social networking service.*
-     
-	2. Explain the data needed
+	1. Clearify the service
+   	 - Begin by explaining the service clearly.
+	 - *Example: Instagram is a phone and video sharing social networking service.*<br><br>
+
+ 	2. Explain the data needed
 	- Identify the data the service requires.
-	- *Example: We need data on posts(text, video, pictures), users and followers.*
+	- *Example: We need data on posts(text, video, pictures), users and followers.*<br><br>
     
 	3. Ask about the focus and its requirements
-    	- Clarify which features or functions the interviewer wants you to prioritize.
-	- *Example: Should we focus on post uploads and viewing, or on following users ?*
+	- Clarify which features or functions the interviewer wants you to prioritize.
+	- *Example: Should we focus on post uploads and viewing, or on following users ?*<br><br>
 
 	4. Ask about un-functional requirements
 	- Discuss performance and scalability factors.
-	- *Example: Do we want to make it scalable, reliable and maintain a low latency ?*
+	- *Example: Do we want to make it scalable, reliable and maintain a low latency ?*<br><br>
 
 	5. Clearify key metrics
 	- Gather numerical details about the system. Calculate the size of the service and storage.
-	- *Example: How many daily users do we have ? What's the size of images and videos ? How long do we store data ?
+	- *Example: How many daily users do we have ? What's the size of images and videos ? How long do we store data ?<br><br>
 
 	6. Draw a high-level design
 	- Start with a basic architecture, including users, application servers and databases.
-	- Focus on a simple solution before considering scalability, reliability, or latency.
+	- Focus on a simple solution before considering scalability, reliability, or latency.<br><br>
 
 	7. Discuss the database
-	* SQL vs NoSQL: Explain the pros & cons, and choose the best fit for this case.
-	* Object storage: Explain why it's suitable for media files like videos and images, and discuss cloud storage options.
- 	* RDB for meta data: Explain why relational database are suitable for handling metadata.
+	- SQL vs NoSQL: Explain the pros & cons, and choose the best fit for this case.
+	- Object storage: Explain why it's suitable for media files like videos and images, and discuss cloud storage options.
+	- RDB for meta data: Explain why relational database are suitable for handling metadata.<br><br>
 
 	8. Discuss the application Server
 	- Describe handling high-traffic scenarios.
 	- Think of high-traffic scenario depending on the service.
-	- *Example: A popular user posts, causing server overloaded. Introduce the concept of a Load Balancer (LB), discuss the type of LB, how to decide the number needed, and how to distribute traffic.*
+	- *Example: A popular user posts, causing server overloaded. Introduce the concept of a Load Balancer (LB), discuss the type of LB, how to decide the number needed, and how to distribute traffic.*<br><br>
 
 	9. Scalability and Reliabiliry
 	- Database replication
-	- Load balancer
+	- Load balancer<br><br>
 
 	10. Latency
 	- Browser caching (cliend-side)
 	- Database caching (server-side)
 	- CDN (Conetent Delivery Network)
-	- Database sharding
+	- Database sharding<br><br>
 
 	11. Security (Optional)
 	- Securing the system
 	- Securing APIs
 	- Database security
-	- Addressing vulnerabilities
+	- Addressing vulnerabilities<br><br>
 
 ## Behavioral Question
 I spoke with friends working at IT companies to understand how to prepare for behavioral questions. 
